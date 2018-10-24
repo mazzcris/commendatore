@@ -2,10 +2,6 @@
 
 This script will add a lot of useful comments in your php code, turning this:
 ```
-<?php
-
-class TestClass
-{
     public function getSomeField()
     {
         return true;
