@@ -1,4 +1,4 @@
-# comment-and-conquer
+# Comment & Conquer
 
 This script will add a lot of useful comments in your php code, turning this:
 ```
