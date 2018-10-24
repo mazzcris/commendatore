@@ -48,7 +48,6 @@ class Commenter
 
     private function getComment(string $line)
     {
-        // Get last work before parentheses
         preg_match('/\s(.*)\(/', $line, $m);
         $signaturePieces = explode(' ', $m[0]);
         $methodName = str_replace('(', '', $signaturePieces[count($signaturePieces) - 1]);
