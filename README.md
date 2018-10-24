@@ -2,63 +2,62 @@
 
 This script will add a lot of useful comments in your php code, turning this:
 ```
-    public function getSomeField()
-    {
-        return true;
-    }
+public function getSomeField()
+{
+    return true;
+}
 
-    public function findSomeField()
-    {
-        return true;
-    }
+public function findSomeField()
+{
+    return true;
+}
 
-    public function searchSomeField()
-    {
-        return true;
-    }
+public function searchSomeField()
+{
+    return true;
+}
 
-    public function saveUser()
-    {
-        return true;
-    }
+public function saveUser()
+{
+    return true;
+}
 
-    public function loadUser(){
-        return true;
-    }
+public function loadUser(){
+    return true;
 }
 ```
 
 
 into this:
 ```
-    // Gets some field
-    public function getSomeField()
-    {
-        return true;
-    }
+// Gets some field
+public function getSomeField()
+{
+    return true;
+}
 
-    // Finds some field
-    public function findSomeField()
-    {
-        return true;
-    }
+// Finds some field
+public function findSomeField()
+{
+    return true;
+}
 
-    // Searches some field
-    public function searchSomeField()
-    {
-        return true;
-    }
+// Searches some field
+public function searchSomeField()
+{
+    return true;
+}
 
-    // Saves user
-    public function saveUser()
-    {
-        return true;
-    }
+// Saves user
+public function saveUser()
+{
+    return true;
+}
 
-    // Loads user
-    public function loadUser(){
-        return true;
-    }
+// Loads user
+public function loadUser(){
+    return true;
+}
 ```
 
 ## Tests
