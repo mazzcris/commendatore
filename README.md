@@ -1,3 +1,7 @@
+// This is the italian name for this project
+# Commendatore
+
+// This the english name for this project
 # Comment & Conquer
 
 This script will add a lot of useful comments in your php code, turning this:
