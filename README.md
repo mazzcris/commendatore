@@ -4,6 +4,8 @@
 // This the english name for this project
 # Comment & Conquer
 
+/* First part of the description */
+
 This script will add a lot of useful comments in your php code, turning this:
 ```
 public function getSomeField()
@@ -31,6 +33,7 @@ public function loadUser(){
 }
 ```
 
+/* another part of the description */
 
 into this:
 ```
