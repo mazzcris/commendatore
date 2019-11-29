@@ -4,10 +4,6 @@ on: [push]
 
 jobs:
   build:
-
+    name: Check for dump() and var_dump()
     runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-    - name: Check for dump() and var_dump()
-      if: "!contains(github.event.head_commit, '[dump | var_dump]')"
+    if: "!contains(github.event.head_commit, '[dump | var_dump]')"
