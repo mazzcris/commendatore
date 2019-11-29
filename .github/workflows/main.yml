@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  main:
     name: Check for dump() and var_dump()
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit, '[dump | var_dump]')"
